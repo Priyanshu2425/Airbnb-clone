@@ -1,0 +1,25 @@
+.onlineContent{
+    padding: 2%;
+}
+
+.onlineContent h1{
+    padding: 10px 0;
+}
+
+.cardPanel{
+  display: flex;
+  overflow: scroll;
+}
+
+@media only screen and (max-width: 460px) {
+    .onlineContent {
+      text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .cardPanel {
+    display: inline;
+    width: max-content;
+  }
+}

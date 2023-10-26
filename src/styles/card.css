@@ -1,0 +1,46 @@
+.card{
+    padding: 10px;
+    width: max-content;
+    font-size: 12px;
+    position: relative;
+}
+
+.card--stats{
+    display: flex;
+    align-items: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.grey{
+    color: #918E9B;
+}
+
+.card-image{
+    width: 176px;
+    height: 235px;
+    border-radius: 5px;
+}
+
+.starLogo{
+    width:14px;
+    padding: 1px;
+}
+
+@media only screen and (max-width: 320px) {
+    .card {
+      margin: 0 auto;
+    }
+  }
+
+.card--badge{
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
